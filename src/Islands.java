@@ -8,7 +8,7 @@ public class Islands {
         for(int i=0;i < grid.length;i++) {
             for(int j=0;j < grid[i].length;j++) {
                 if(grid[i][j].equals("1")) {
-                    cnt += 1;
+                    cnt++;
                     bfs(grid, i, j);
                 }
             }
