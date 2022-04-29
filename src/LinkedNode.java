@@ -1,3 +1,8 @@
 public class LinkedNode {
-    LinkedNode prev, next;
+    int value;
+    LinkedNode next;
+
+    LinkedNode(int value) {
+        this.value = value;
+    }
 }
